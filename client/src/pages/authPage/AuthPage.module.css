@@ -1,0 +1,9 @@
+.auth__container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-image: linear-gradient(to bottom, #42cbd4, #5454ec);
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+}

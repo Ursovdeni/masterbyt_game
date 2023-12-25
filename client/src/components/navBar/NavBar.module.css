@@ -1,0 +1,36 @@
+.nav__block {
+  position: fixed;
+  top: 0;
+  left: 40%;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.logo img {
+  animation: rotate-back-and-forth 5s infinite linear;
+  position: fixed;
+  left: 50px;
+}
+
+@keyframes rotate-back-and-forth {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
